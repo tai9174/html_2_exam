@@ -1,14 +1,21 @@
 html {
-  position: relative;
   min-height: 100%;
 }
 
 body {
   text-align: center;
+  height: 100%;
+
+
+}
+.container{
+  height: 820px;
+  position: relative;
 }
 
 .main-header {
   width: 100%;
+  height:250px;
   background-size: cover;
   background-image: url("../images/header.jpg");
   background-attachment: fixed;
@@ -21,6 +28,8 @@ header {
   background-color: #2B2B2B;
   height: 50px;
   z-index:9999;
+  position: fixed;
+  width: 100%;
 }
 .left{
   float:left;
@@ -56,6 +65,7 @@ header ul:after {
 }
 .logo_image{
   width:13%;
+  margin-top:100px;
 }
 .image{
  text-align: center;
@@ -67,7 +77,11 @@ header ul:after {
 .about p{
   font-size: :0.8rem
 }
+.about {
+  padding-top: 30px;
+  padding-bottom: 60px;
 
+}
 /* ここから */
 .function {
   background-color: #D3D3D3
@@ -97,7 +111,6 @@ footer {
   bottom: 0;
   width: 100%;
   height: 70px;
-  position: relative;
 
 
 /* footer部分の実装 */
